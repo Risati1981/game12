@@ -122,7 +122,7 @@ function saveScore() {
   localStorage.setItem(initials, score);
   initialsInput.value = "";
   location.reload();
-}
+};
 
 // Add event listener to start button
 startButton.addEventListener("click", startQuiz);
