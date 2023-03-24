@@ -51,6 +51,7 @@ function shuffleArray(array) {
 
 // Start the quiz
 function startQuiz() {
+  console.log("startQuiz() was called");
   startButton.style.display = "none";
   quizContainer.style.display = "block";
   shuffleArray(questions);
